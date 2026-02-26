@@ -26,6 +26,9 @@ namespace TempConvert
                     Console.WriteLine($"{temperature:F2} F = {converted:F2} C");
                     Console.WriteLine($"Absolute value: {Math.Abs(converted):F2}");
                     break;
+                default:
+                    Console.WriteLine("Invalid unit.");
+                    break;
             }
     }
 }
